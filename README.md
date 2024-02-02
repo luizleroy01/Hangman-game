@@ -1,1 +1,6 @@
 # Hangman-game
+É o famoso jogo da forca no qual há um arquivo contendo todas as palavras possíveis de serem escolhidas e, nesse caso é o próprio programa que chuta as letras das palavras como se fosse uma mini inteligência artificial até chegar um momento que o próprio começa a chutar as palavras e você , o usuário, vai guiando-o em busca do objetivo de arcertar a palavra que você pensou.
+## Utilização
+Ao clonar o repositório basta compilar e executar o código da forca, no primeiro momento o arquivo contendo as palavras será aberto para que você possa escolher uma palavra, em seguida você deve digitar a quantidade de letras que possui a palavra que você pensou para que seja realizada uma filtragem de palavras.Em seguida o programa inicia seus chutes pelas vogais , depois pelas consoantes de maior ocorrência nas palavras, por fim, algumas palavras são apresentadas ao usuário para que sejam tomadas as decisões.
+## Tecnologias utilizadas
+Uso de funções em todas as partes do programa para controlar o fluxo de ações no jogo, uso de ponteiros e alocação dinãmica de memória para alocar determinadas quantidades de palavras ao longo da execução do programa, manipulação de aquivos além de todas as estruturas de controle e retição mais comuns como for, if, while e etc
